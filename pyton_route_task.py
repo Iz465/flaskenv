@@ -6,6 +6,7 @@ app = Flask(__name__)
 def admin_page(admin):
     return f"{admin} as Admin"
 
+
 @app.route('/guest')
 def guest_page():
     return "Guest Page"

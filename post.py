@@ -7,7 +7,7 @@ app = Flask(__name__)
 def index():
     return render_template('form.html')
 
-@app.route('/welcome/<name>')
+@app.route('/Cafe/<name>')
 
 def welcome(name):
     return f'welcome {name}'

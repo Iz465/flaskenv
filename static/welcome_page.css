@@ -1,0 +1,46 @@
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+h1, p {
+    padding: 0;
+    margin: 0;
+}
+
+.welcome_container {
+    background-color: palegreen;
+    text-align: center;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.smaller-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.section_header {
+    display: flex;
+    background-color: plum;
+    height: 15%;
+    justify-content: space-around;
+}
+
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    height: 20%;
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
